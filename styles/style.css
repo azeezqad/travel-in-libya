@@ -1,48 +1,104 @@
-#hero{
-    height: 800px;
-    background-image: url(../images/places/desert.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
+#hero {
+  height: 800px;
+  background-image: url(../images/places/desert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-#hero-content{
-    width: 900px;
-    background-color: rgba(51, 47, 47, 0.8);
-    box-shadow: 2px 4px 8px rgb(68, 67, 67);
-    border-radius: 8px;
+#hero-content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+#hero-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Releway", sans-serif;
+  margin: 0;
+}
+
+#hero-content p {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+#hero-content a {
+  text-decoration: none;
+  background-color: rgb(255, 251, 0);
+  padding: 10px 20px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+#hero-content a:hover {
+  background-color: rgb(211, 201, 63);
+}
+#highlights{
+    padding: 24px;
+    background: linear-gradient(to bottom, #EDC9AF 0%, #DEBAA0 100%);
+}
+#highlights h2{
     text-align: center;
-    padding: 50px 0;
-    margin: 0 auto;
-    position: relative;
-    top: 200px; 
-}
-#hero-content h1{
-    color: white;
     text-transform: uppercase;
-    font-size: 50px;
-    font-family: "Releway", sans-serif;
-    margin: 0;
+    color: #9c721e;
+    font-size: 40px;
+    margin:24px;
+}
+#destinations {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  justify-content: center;
 }
 
-#hero-content p{
-    color: white;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 24px;
-    margin-bottom: 32px;
-}
-#hero-content a{
-    text-decoration: none;
-    background-color: rgb(255, 251, 0);
-    padding: 10px 20px;
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-    border-radius: 8px;
-    box-shadow: 2px 4px 8px rgb(68, 67, 67);
 
+.destination {
+  width: 100%;
+  margin: 0 20px;
+  text-align: center;
 }
-#hero-content a:hover{
-    background-color: rgb(211, 201, 63);
+/* .destination:hover {
+    width: 150%;
+    
+  } */
+.destination img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
 }
+.destination p{
+    font-size: 24px;
+    color: rgb(68, 67, 67) ;
+    margin:20px 0 ;
+}
+.destination strong{
+    color: #f5b22d;
+}
+
+/* @media screen and (max-width: 600px) {
+    #destinations{
+        flex-direction: column;
+        color: red;
+    }
+    #hero-content{
+        width: 100%;
+    }
+    header{
+        display: none;
+    }
+    
+} */

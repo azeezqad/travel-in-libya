@@ -50,9 +50,13 @@ footer{
 }
 footer ul{
   display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 footer li{
   width: 80px;
+  margin: 0 50px;
+
   height: 80px;
 }
 footer img{
